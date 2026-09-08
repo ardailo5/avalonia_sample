@@ -1,0 +1,52 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1366" d:DesignHeight="768"
+        x:Class="test.MainWindow"
+        Title="Sample Login Form">
+    
+    <Window.Resources>
+        
+    </Window.Resources>
+    
+    <Grid Margin="10" ColumnDefinitions="Auto,250" RowDefinitions="Auto, 40, 40, 50 , 25, 25">
+        <TextBlock Grid.ColumnSpan="2" 
+            Margin = "5" FontSize="24" FontWeight="Bold">
+            Sample Login Form
+        </TextBlock>
+        
+        <TextBlock Grid.Column="0" Grid.Row="1" 
+                   Margin = "5" VerticalAlignment="Center"
+                   > Name: 
+        </TextBlock>
+        
+        <TextBox x:Name="Tb_Uname"
+                Grid.Column="1" Grid.Row="1" 
+                Margin = "5" PlaceholderText="Enter Name here"></TextBox>
+        
+        <TextBlock Grid.Column="0" Grid.Row="2" 
+                   Margin = "5" VerticalAlignment="Center"
+                   > Password: 
+        </TextBlock>
+        
+        <TextBox x:Name="Tb_Pword"
+            Grid.Column="1" Grid.Row="2" 
+            Margin = "5" PasswordChar="*" PlaceholderText="Enter your Password"></TextBox>
+        
+        <Button Grid.Column="1" Grid.Row="3"
+                Margin="5" FontSize="16" FontWeight="Bold" Width="240" HorizontalContentAlignment="Center"
+                Click="OnButtonClick"
+        >CONFIRM
+        </Button>
+        
+        <TextBlock Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"
+            x:Name="Lbl_Uname"
+            ></TextBlock>
+        
+        <TextBlock Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2"
+                   x:Name="Lbl_Pword"
+        ></TextBlock>
+        
+    </Grid>
+</Window>
