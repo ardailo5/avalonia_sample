@@ -14,9 +14,16 @@ public partial class MainWindow : Window
     {
         string username = Tb_Uname.Text ?? string.Empty;
         string password = Tb_Pword.Text ?? string.Empty;
-        
-        Lbl_Uname.Text = $"Username is {username}";
-        Lbl_Pword.Text = $"Password is {password}";
-        
+
+        if (username == "admin" && password == "admin")
+        {
+            Lbl_Uname.Text = $"Username {username} is correct!";
+            Lbl_Pword.Text = $"Password {password} is correct!";
+        }
+        else
+        {
+            Lbl_Uname.Text = $"Incorrect username or password!";
+        }
+
     }
 }
