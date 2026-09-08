@@ -89,3 +89,4 @@ C:\Users\arda\RiderProjects\test\test\obj\Debug\net10.0\refint\test.dll
 C:\Users\arda\RiderProjects\test\test\obj\Debug\net10.0\test.pdb
 C:\Users\arda\RiderProjects\test\test\obj\Debug\net10.0\test.genruntimeconfig.cache
 C:\Users\arda\RiderProjects\test\test\obj\Debug\net10.0\ref\test.dll
+C:\Users\arda\RiderProjects\test\test\obj\Debug\net10.0\test.sourcelink.json

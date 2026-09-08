@@ -12,11 +12,19 @@ public partial class MainWindow : Window
 
     public void OnButtonClick(object? sender, RoutedEventArgs e)
     {
+        var dash = new Dash();
         string username = Tb_Uname.Text ?? string.Empty;
         string password = Tb_Pword.Text ?? string.Empty;
         
-        Lbl_Uname.Text = $"Username is {username}";
-        Lbl_Pword.Text = $"Password is {password}";
-        
+        if (username == "admin" && password == "admin")
+        {
+           dash.Show();
+           this.Close();
+        }
+        else
+        {
+            Lbl_ErrorMsg.Text = $"Incorrect username or password!";
+        }
+
     }
 }
