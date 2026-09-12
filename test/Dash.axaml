@@ -9,7 +9,7 @@
         <Grid ColumnDefinitions="*,3*" RowDefinitions="*,*,*,*">
                 <Button 
                         Click = "FirstPanel"
-                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                         HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
                         Button1
                 </Button>

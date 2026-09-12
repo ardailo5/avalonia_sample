@@ -10,7 +10,7 @@ public partial class Dash : Window
     public Dash()
     {
         InitializeComponent();
-        container.Children.Add(new UserControl1());
+        container.Children.Add(new UserControl4());
     }
 
     public void FirstPanel(object sender, RoutedEventArgs e)
