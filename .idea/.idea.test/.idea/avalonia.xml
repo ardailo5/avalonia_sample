@@ -6,6 +6,9 @@
         <entry key="test/App.axaml" value="test/test.csproj" />
         <entry key="test/Dash.axaml" value="test/test.csproj" />
         <entry key="test/MainWindow.axaml" value="test/test.csproj" />
+        <entry key="test/UserControl1.axaml" value="test/test.csproj" />
+        <entry key="test/UserControl2.axaml" value="test/test.csproj" />
+        <entry key="test/UserControl3.axaml" value="test/test.csproj" />
       </map>
     </option>
   </component>

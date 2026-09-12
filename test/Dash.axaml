@@ -2,8 +2,40 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" 
+        Width="800" Height="600" WindowStartupLocation="CenterScreen"
         x:Class="test.Dash"
         Title="DashBoard">
-    Welcome to the Dashboard!
+        <Grid ColumnDefinitions="*,3*" RowDefinitions="*,*,*,*">
+                <Button 
+                        Click = "FirstPanel"
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                        Button1
+                </Button>
+                <Button 
+                        Click = "SecondPanel"
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                        Grid.Row="1">
+                        Button2
+                </Button>
+                <Button 
+                        Click = "ThirdPanel"
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                        Grid.Row="2">
+                        Button3
+                </Button>
+                <Button
+                        Click = "LogOut"
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                        Grid.Row="3">
+                        Button4
+                </Button>
+                
+                <Panel x:Name="container" Grid.Column="1" Grid.RowSpan="4"/>
+                        
+        </Grid>
 </Window>
