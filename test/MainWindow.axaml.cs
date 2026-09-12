@@ -16,14 +16,17 @@ public partial class MainWindow : Window
         var dash = new Dash();
 
         var nw = new newwindow();
+        var neww = new newwin(); 
+        
         string username = Tb_Uname.Text ?? string.Empty;
         string password = Tb_Pword.Text ?? string.Empty;
         
         if (username == "admin" && password == "admin")
-        {
-           dash.Show();
-           //Terminate last window
-           this.Close();
+        { 
+            //Opens the dashboard window
+            dash.Show();
+            //Terminate last window (resource)
+            this.Close();
         }
         else
         {

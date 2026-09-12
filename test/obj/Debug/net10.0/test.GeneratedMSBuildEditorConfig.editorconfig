@@ -9,7 +9,7 @@ build_property.AvaloniaNameGeneratorAttachDevTools = true
 build_property.AvaloniaUseCompiledBindingsByDefault = true
 build_property.AvaloniaMainPackageVersion = 12.1.1
 build_property.AvaloniaPreviewerNetCoreToolPath = /home/apollos/.nuget/packages/avalonia/12.1.1/buildTransitive//../tools/net8.0/designer/Avalonia.Designer.HostApp.dll
-build_property.AvaloniaResourcePaths = /home/apollos/RiderProjects/avalonia_sample_4/test/App.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/Dash.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/MainWindow.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/newwindow.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl1.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl2.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl3.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl4.axaml
+build_property.AvaloniaResourcePaths = /home/apollos/RiderProjects/avalonia_sample_4/test/App.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/Dash.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/MainWindow.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/newwin.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/newwindow.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl1.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl2.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl3.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl4.axaml,/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl5.axaml
 build_property.TargetFramework = net10.0
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
@@ -37,6 +37,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/home/apollos/RiderProjects/avalonia_sample_4/test/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/apollos/RiderProjects/avalonia_sample_4/test/newwin.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/apollos/RiderProjects/avalonia_sample_4/test/newwindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
@@ -50,4 +53,7 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl4.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/apollos/RiderProjects/avalonia_sample_4/test/UserControl5.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
