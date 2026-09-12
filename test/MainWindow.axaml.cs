@@ -12,13 +12,17 @@ public partial class MainWindow : Window
 
     public void OnButtonClick(object? sender, RoutedEventArgs e)
     {
+        //declared a variable named dash that contains our new window
         var dash = new Dash();
+
+        var nw = new newwindow();
         string username = Tb_Uname.Text ?? string.Empty;
         string password = Tb_Pword.Text ?? string.Empty;
         
         if (username == "admin" && password == "admin")
         {
            dash.Show();
+           //Terminate last window
            this.Close();
         }
         else
