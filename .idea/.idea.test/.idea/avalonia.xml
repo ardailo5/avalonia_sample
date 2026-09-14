@@ -9,6 +9,10 @@
         <entry key="test/UserControl1.axaml" value="test/test.csproj" />
         <entry key="test/UserControl2.axaml" value="test/test.csproj" />
         <entry key="test/UserControl3.axaml" value="test/test.csproj" />
+        <entry key="test/UserControl4.axaml" value="test/test.csproj" />
+        <entry key="test/UserControl5.axaml" value="test/test.csproj" />
+        <entry key="test/newwin.axaml" value="test/test.csproj" />
+        <entry key="test/newwindow.axaml" value="test/test.csproj" />
       </map>
     </option>
   </component>

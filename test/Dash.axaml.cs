@@ -10,7 +10,7 @@ public partial class Dash : Window
     public Dash()
     {
         InitializeComponent();
-        container.Children.Add(new UserControl1());
+        container.Children.Add(new UserControl5());
     }
 
     public void FirstPanel(object sender, RoutedEventArgs e)
@@ -27,7 +27,7 @@ public partial class Dash : Window
     
     public void ThirdPanel(object sender, RoutedEventArgs e)
     {
-        container.Children.Clear();
+        container.Children.Clear(); //Clean Resource
         container.Children.Add(new UserControl3());
     }
     
